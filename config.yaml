@@ -15,6 +15,9 @@ dotfiles:
   f_vimb_config:
     dst: ~/.config/vimb/config
     src: config/vimb/config
+  f_xinitrc:
+    dst: ~/.xinitrc
+    src: xinitrc
 profiles:
   random-carbon:
     dotfiles:
@@ -22,3 +25,4 @@ profiles:
     - f_i3status_config
     - f_config.fish
     - f_vimb_config
+    - f_xinitrc
