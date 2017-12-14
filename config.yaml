@@ -1,0 +1,24 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_config.fish:
+    dst: ~/.config/fish/config.fish
+    src: config/fish/config.fish
+  f_i3_config:
+    dst: ~/.config/i3/config
+    src: config/i3/config
+  f_i3status_config:
+    dst: ~/.config/i3status/config
+    src: config/i3status/config
+  f_vimb_config:
+    dst: ~/.config/vimb/config
+    src: config/vimb/config
+profiles:
+  random-carbon:
+    dotfiles:
+    - f_i3_config
+    - f_i3status_config
+    - f_config.fish
+    - f_vimb_config

@@ -1,0 +1,3 @@
+set download-path=~/Downloads
+shortcut-add g=https://encrypted.google.com/search?q=$0
+shortcut-add y=http://www.youtube.com/results?search_query=$0
