@@ -3,6 +3,9 @@ config:
   create: true
   dotpath: dotfiles
 dotfiles:
+  f_backlight.sh:
+    dst: ~/bin/backlight.sh
+    src: bin/backlight.sh
   f_config.fish:
     dst: ~/.config/fish/config.fish
     src: config/fish/config.fish
@@ -26,3 +29,4 @@ profiles:
     - f_config.fish
     - f_vimb_config
     - f_xinitrc
+    - f_backlight.sh

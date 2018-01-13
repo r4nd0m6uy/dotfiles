@@ -157,3 +157,6 @@ bar {
 
 exec wicd-gtk -t
 exec pnmixer
+
+bindcode 233 exec --no-startup-id sudo /home/random/bin/backlight.sh -i -s 100
+bindcode 232 exec --no-startup-id sudo /home/random/bin/backlight.sh -d -s 100
